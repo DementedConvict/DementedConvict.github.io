@@ -1,0 +1,77 @@
+body {
+    background-color: lightblue;
+    margin: auto;
+    
+}
+
+header {
+    border: 1px solid red;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    border: 1px solid red;
+}
+
+.logo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.toc {
+    height: auto;
+    width: 400px;
+    border: 1px solid blue;
+}
+
+.images {
+    display: inline-block;
+    height: auto;
+    flex-grow: 1;
+    flex-basis: content;
+    border: 1px solid black;
+}
+
+.images img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.sectionsArea {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.sections {
+    border: 1px solid red;
+    margin: auto 0;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.section {
+    display: inline-block;
+    height: auto;
+    flex-basis: 500px;
+    border: 1px solid black;
+    flex-grow: 3;
+}
